@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Excercises</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <!-- ex 1 -->
+    <div class="container">
+        <div class="header">Change background color</div>
+            <label>R:
+            <input class="input" type="range" min="0" max="255" value="255" id="red">
+        </label>
+        <label>G:
+            <input class="input" type="range" min="0" max="255" value="255" id="green">
+        </label>
+        <label>B:
+            <input class="input" type="range" min="0" max="255" value="255" id="blue">
+        </label>
+        <div id="description"></div>
+    </div>
+
+    <!-- ex 2 -->
+    <div class="container">
+        <div class="header">Checkbox</div>
+        <label>
+            <input class="input2" type="checkbox" value="obiad">Obiad
+        </label>
+        <label>
+            <input class="input2" type="checkbox" value="cola">Cola
+        </label>
+        <label>
+            <input class="input2" type="checkbox" value="woda">Woda
+        </label>
+        <label>
+            <input class="input2" type="checkbox" value="deser">Deser
+        </label>
+        <label>
+            <input class="input2" type="checkbox" value="kawa">Kawa
+        </label>
+        <div id="description2"></div>
+    </div>
+
+    <!-- ex 3 -->
+    <div class="container">
+        <div class="header">Math</div>
+        <label>
+            Podaj promień: <input id="input3" type="number">
+        </label>
+        <input id="input3_1" type="submit" value="klik">
+        <div id="result3"></div>
+    </div>
+
+    <!-- ex 4 -->
+    <div class="container">
+        <div class="header">Array join</div>
+        <ul>
+            <li id="table"></li>
+            <li id="table1"></li>
+            <li id="table2"></li>
+        </ul>
+    </div>
+
+    <!-- ex 5 -->
+    <div class="container">
+        <div class="header">Text functions</div>
+        <div id="informacja"></div>
+        <ul>
+            <li id="dane"></li>
+            <li id="dane1"></li>
+            <li id="dane2"></li>
+        </ul>
+    </div>
+
+    <!-- ex 6 -->
+    <div class="container">
+        <div class="header">Select</div>
+        <select id="szczyty">
+            <option value="...">Wybierz łańcuch górski</option>
+            <option value="Rysy - 2499 m.n.p.m">Tatry</option>
+            <option value="Śnieżka - 1603 m.n.p.m">Karkonosze</option>
+            <option value="Babia Góra - 1725 m.n.p.m">Beskidy</option>
+        </select>
+        <div id="result4"></div>
+    </div>
+
+    <!-- ex 7 -->
+    <div class="container">
+        <div class="header">Div size</div>
+        Rozmiar kwadratu: 0<input type="range" id="rozmiar" min="0" max="500" value="100">500 - aktualnie <span id="wielkosc">100px</span>
+        <hr>
+        <div class="square"></div>
+    </div>
+
+     <!-- ex 8 -->
+     <div class="container">
+        <div class="header">Font size</div>
+        <div>0 <input type="range" value="30" min="0" max="250" id="suwak"> 250</div>
+        <div id="liczba">30 px</div>
+    </div>
+    
+    <!-- ex 9 -->
+    <div class="container">
+        <div class="header">Addition</div>
+        <input type="number" id="a"> +
+        <input type="number" id="b">
+        <button id="dodaj">=</button>
+        <span id="wynik"></span>
+    </div>
+
+	<script src="script.js"></script>
+</body>
+</html>
